@@ -3,19 +3,33 @@
     <head>
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
         <label for="name">Country name:</label>
-        
+
         <input
         type = "text"
         id = "name"
+        name = "name"
         />
-        <button type="button">Submit</button>
+    
+        <button 
+        type="button"
+        id = "name_button"
+        
+        >Submit</button>
+        
         <section id = "country-info">country-info
-            
+            <p id="countryName">Country</p>
+            <p id="countryPop">Population</p>
+            <p id="countryRegion">Region</p>
+            <p id="countryFlag">Flag</p>
         </section>
         <section id="bordering-countries">bordering-countries
-
+            <p id="neighbour">Neighbours</p>
         </section>
+        <h1 id="show"></h1>
+        <script src ="script.js">
+        </script>
     </body>
 </html>
